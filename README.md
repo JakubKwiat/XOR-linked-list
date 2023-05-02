@@ -34,8 +34,8 @@ A number of commands that run specific functionalities in the list.
 Output
 The results of the operation of the appropriate commands on the list with a certain state. Initially, the list is empty and its later status depends on the commands that are previously invoked. Some commands do not generate any output, e.g. (ADD_BEG, DEL_ACT) but affect the state of the list and other commands that display certain information, e.g. (ACTUAL, PRINT_FORWARD).
 
-Przykład/Example
-Wejście1/Input1
+Example
+Input
 
 ADD_BEG 1
 ADD_BEG 2
@@ -44,27 +44,7 @@ ADD_END 4
 PRINT_FORWARD
 PRINT_BACKWARD
 
-Wyjście1/Output1
+Output
 
 3 2 1 4 
 4 1 2 3 
-
-Wejście2/Input2
-
-ACTUAL
-ADD_BEG 1
-ACTUAL
-ADD_BEG 2
-ADD_BEG 3
-ADD_END 4
-PRINT_FORWARD
-PRINT_BACKWARD
-ACTUAL
-NEXT
-ACTUAL
-NEXT
-NEXT
-PREV
-ACTUAL
-PREV
-PREV
